@@ -1,0 +1,61 @@
+/* addproblem.css */
+
+.add-prob-page {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(36, 39, 42, 255);
+  color: white;
+  
+}
+
+
+.add-prob-page input[type='text']::placeholder,
+textarea::placeholder {
+  color: rgb(180, 180, 180);
+}
+
+
+
+.add-prob-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-prob-page label {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.add-prob-page input[type='text'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(67, 66, 66);
+}
+
+.add-prob-page textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.add-prob-page button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-prob-page button:hover {
+  background-color: #0056b3;
+}

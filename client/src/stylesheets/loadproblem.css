@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.load-problem-page{
+  margin-top: 30px;
+  /* background-color: rgba(39,38,39,255); */
+  background-color: rgba(28,30,34,255);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 40px;
+  /* padding-top: 10px; */
+  /* background-color: yellow; */
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.problem-section{
+  /* background-color: orange; */
+  flex: 1;
+  margin-right: 80px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+
+.problem-title{
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.problem-desc{
+  text-align:justify;
+  font-size: large;
+  margin-top: 25px;
+}
+
+.testcase-sec{
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(73, 73, 73); */
+  background-color: rgba(36,39,42,255);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.input, .output{
+  white-space: pre-wrap;
+  width: 45%;
+  padding: 10px;
+}
+.input{
+  border-right: 1px solid white;
+}
+
+
+
+.problem-inp,.problem-out{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+  padding: 5px;
+
+}
+
+
+
+.example{
+  font-size: 18px;
+}
+
+.right-container{
+  /* background-color: bisque; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  max-height: 700px; 
+  overflow-y: scroll;
+  scrollbar-color: grey rgb(48, 43, 43);
+  
+}
+
+.editor-section{
+  /* background-color: brown; */
+  flex: 1;
+}
+
+

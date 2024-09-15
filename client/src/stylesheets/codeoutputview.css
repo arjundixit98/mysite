@@ -1,0 +1,59 @@
+.results{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  padding: 8px;
+  background-color: rgba(39,38,39,255);
+  /* background-color: rgba(28,30,34,255); */
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 18px;
+
+  margin-left: auto;
+  margin-right: auto;
+  height: 230px;
+}
+
+.exec-time{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+
+.output1{
+  margin-top: 10px;
+  white-space: pre-wrap;
+  background-color: rgb(73, 73, 73);
+  /* background-color: rgba(36,39,42,255); */
+  padding: 10px;
+  border-radius: 10px;
+  width: 95%;
+  height: 110px;
+  overflow: scroll;
+  margin-bottom: 10px;
+}
+
+.output1::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* .output1::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+} */
+
+.output1::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9;
+}
+
+/* .output1:hover::-webkit-scrollbar-thumb {
+  background-color: #f4efef;
+} */
+
+.out1,.error1{
+  margin-top: 10px;
+}
+

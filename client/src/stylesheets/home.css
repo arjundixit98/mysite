@@ -1,0 +1,32 @@
+body{
+  background-color: rgba(28, 30, 34, 255);
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color:darkolivegreen; */
+  /* background-color: rgba(6, 6, 6, 0.77); */
+  background-color: rgba(36,39,42,255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-links
+{
+  /* background-color: darkolivegreen; */
+  /* background-color: rgba(0, 128, 0, 0.84); */
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links:hover{
+  background-color:dimgray;
+}

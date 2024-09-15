@@ -1,0 +1,58 @@
+.testcase{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  padding: 8px;
+  background-color: rgba(39,38,39,255);
+  /* background-color: rgba(28,30,34,255); */
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 18px;
+  /* height: 250px;
+  max-height: 250px;
+  overflow-y: auto;
+  scrollbar-color: grey rgb(48, 43, 43);
+   */
+}
+
+.tr-status{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.btn-test-res{
+  margin-left: 10px;
+}
+
+
+.exp{
+  margin-top: 10px;
+}
+
+.sample-input,.expected-output,.outputt,.error-output{
+  margin-top: 10px;
+  white-space: pre-wrap;
+  background-color: rgb(73, 73, 73);
+  /* background-color: rgba(36,39,42,255); */
+  padding: 10px;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.outputt,.error-output{
+  margin-bottom: 10px;
+}
+
+
+.runtime{
+  font-size: 16px;
+  margin-left: 25px;
+}
+.inp,.out,.exp,.error{
+  margin-top: 20px;
+}
+
