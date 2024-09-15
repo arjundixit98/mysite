@@ -55,6 +55,7 @@ def run(request):
 
 
             print(request.body)
+            
             body = request.body.decode('utf-8')
             data = json.loads(body)
             print(data)
